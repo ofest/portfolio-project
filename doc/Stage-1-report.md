@@ -1,44 +1,58 @@
-# Stage 1 report
+#Stage 1 report
 
 ## Roles
 
-- Daniel (Full-stack)
-- Adel (Full-stack)
+- Daniel frontend developer, UI designer, UX designer, agile developer
+  - strength in frontend design and architecture
+  - skilled in HTML, CSS
+
+- Adel backend developer, agile developer, project manager
+  - strength in backend development
+  - good with object oriented programming concepts
 
 ## Communication and collaboration media
 
-- Discord, Trello
+- Discord, Jira
 
 ## Stackholders
 
-- Emilie (Office manager)
-- Maëva (Assistante de direction)
+- Emilie Office manager, app client, feedback and administrator
+  - manage accounts
+  - gives rights to the coach to plan sessions
+- Maëva Executive Assistant, app client, feedback and administrator
+  - help manage accounts
+  - manage payments
 
-## Summary
-
-- Project ideas
-- Evaluation criteria
-  - impact
-  - scalability
-  - technical alignment
-- Final MVP
-
-## Project idea
+## Project ideas
 
 Web app for managing access to Actual digital gym:
 
 - coach access and scheduling
 - user access and subscription
-- payment
+- payment system
 - administrator access
-- attendance list for hr
+- attendance list for human resources
 
-## Evaluation criteria
+Kessia, a platform for medical writing
+
+- connection between researchers and writers
+- airbnb styling for scientific writing
+- automatically generate contracts
+- payment for the contract
+- review system
+
+“How Might We” Questions:
+
+- How might we simplify gym scheduling for human resources?
+- How might we integrate payment and payment options?
+- How might we handle gym session management for coaches?
+
+## Priorities
 
 - potential impact
-  - Less management needs for the administrator
+  - Less management needs for the administrators
   - Easier access to the gym via subscription
-  - Convenience for the coach and hr
+  - Convenience for the coach and human resources
 
 - scalability
   - Internal app so low scalability needs
@@ -47,21 +61,32 @@ Web app for managing access to Actual digital gym:
 
 - Technical alignment
   - SQL or mangodb
-  - Python(Django, FastAPI)
+  - Python FastAPI
   - HTML 5, CSS, JavaScript
   - Stripe
 
 - Risks
-  - scaling
   - no experience with frameworks
   - no experience with Stripe
   - tech choice define development speed
   - no prior knowledge on the database
 
-## Final MVP
+- MVP 🔴 → Mandatory task to make the site functional.
+- Important 🟡 → For a better experience for the client.
+- Future 🔵 → Improve the future roadmap and scaling the website.
 
-The gym project solve management time concerns
-make scheduling and subscription for a gym service easier
+| Feature  |  Notes  | Feasibility   | Risks   | Priorities  |
+|---|---|---|---|---|
+| user access + session subscription |  User subscription to any available gym session | 5/5  | None  | 🔴 |
+| user payment  | Payment option for each session  | 3/5  | Must learn payment technologies and options  | 🔴 |
+| coach session creation and management  | Coaches can create session, their content and number of participant  | 4/5  | administration and coach scope can overlap  | 🔴  |
+| generating attendance lists | Human resource want an attendance list for each session | 5/5 | None | 🟡 |
+| administration of users, session and coaches | management of all moving parts of the app | 3/5 | high complexity must manage 3 tables at once and payment | 🔴  |
+| user review| user can review each session | 5/5 | out of scope | 🔵  |
+
+## Final MVP decision: Actual digital gym management website
+
+The Actual digital gym app project solve management time concerns make scheduling and subscription easier for the user
 
 ### Goals
 
