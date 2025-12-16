@@ -1,4 +1,4 @@
-#Stage 1 report
+# Stage 1 report
 
 ## Roles
 
@@ -70,6 +70,8 @@ Kessia, a platform for medical writing
   - no experience with Stripe
   - tech choice define development speed
   - no prior knowledge on the database
+
+---
 
 - MVP 🔴 → Mandatory task to make the site functional.
 - Important 🟡 → For a better experience for the client.
